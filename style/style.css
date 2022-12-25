@@ -46,10 +46,20 @@ body {
     color: #616161;
     line-height: 32px;
 }
-.active {
+.button-custom {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
     color: #616161;
+    background: rgba(7, 89, 54, 0.2);
+    border-radius: 100px;
+    padding: 4px 16px;
 }
 /* END ASSETS */
+
+#hero {
+    background: rgba(7, 89, 54, 0.03);
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }
@@ -66,5 +76,16 @@ body {
         
         line-height: 24px;
         margin-left: 56px;
+    }
+    .active {
+        color: #075936 !important;
+    }
+    .nav-link:hover {
+        font-weight: 500;
+        font-size: 16px;
+        color: #075936 !important;
+        line-height: 24px;
+        margin-left: 56px;
+        transition: 0.5 ease-in-out;
     }
 }
