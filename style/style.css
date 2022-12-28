@@ -46,19 +46,39 @@ body {
     color: #616161;
     line-height: 32px;
 }
-.button-custom {
+.badge {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: #616161;
     background: rgba(7, 89, 54, 0.2);
     border-radius: 100px;
-    padding: 4px 16px;
+    padding: 8px 16px;
+    
+}
+.button-custom {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #616161;
+    background: rgba(7, 89, 54, 0.2);
+    border-radius: 100px;
+    padding: 8px 16px;
+    transition: all 0.5s ease;
+}
+.button-custom:hover {
+    color: #075936;
+    background: rgba(7, 89, 53, 0.114);
+    
 }
 /* END ASSETS */
 
 #hero {
     background: rgba(7, 89, 54, 0.03);
+}
+#profil {
+    background: #ffffff;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -73,7 +93,6 @@ body {
         font-weight: 500;
         font-size: 16px;
         color: rgba(0, 0, 0, 0.5);
-        
         line-height: 24px;
         margin-left: 56px;
     }
@@ -86,6 +105,5 @@ body {
         color: #075936 !important;
         line-height: 24px;
         margin-left: 56px;
-        transition: 0.5 ease-in-out;
     }
 }
