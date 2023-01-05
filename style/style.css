@@ -195,6 +195,34 @@ object-fit: cover;
 .rounded-custom-top {
     border-radius: 20px 20px 0px 0px;
 }
+.card-custom-overlay {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.card-custom-overlay::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, #000000 100%);
+    position: absolute;
+    bottom: 0;
+}
+.card-custom-caption {
+    z-index: 1;
+}
+.card-custom-caption h5{
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
 /* START CARD */
 
 /* Medium devices (tablets, 768px and up) */
