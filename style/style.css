@@ -153,11 +153,11 @@ body {
     object-position: center;
 }
 
+/* START SWIPPER */
 .swiper {
     width: 100%;
     height: 100%;
 }
-
 .swiper-slide {
 text-align: center;
 font-size: 18px;
@@ -184,6 +184,9 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 }
+/* END SWIPPER */
+
+/* START CARD */
 .card-custom {
     background-color: #F2F2F2;
     border-radius: 0px 0px 20px 20px;
@@ -192,11 +195,133 @@ object-fit: cover;
 .rounded-custom-top {
     border-radius: 20px 20px 0px 0px;
 }
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+/* START CARD */
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+    /* START ASSETS */
+    .logo {
+        font-family: 'Kanit', sans-serif;
+        font-weight: 500;
+        color: #075936;
+        font-size: 24px;
+        margin-left: 4px;
+    }
+    .display {
+        font-weight: 600;
+        font-size: 40px;
+        color: #393939;
+        line-height: 60px;
+    }
+    .heading {
+        font-weight: 600;
+        font-size: 36px;
+        color: #393939;
+        line-height: 54px;
+    }
+    .heading-green {
+        font-weight: 600;
+        font-size: 36px;
+        color: #075936;
+        line-height: 54px;
+    }
+    .subHeading {
+        font-weight: 600;
+        font-size: 20px;
+        color: #075936;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+    }
+    .body {
+        font-weight: 400;
+        font-size: 18px;
+        color: #616161;
+        line-height: 32px;
+    }
+    .label {
+        font-weight: 400;
+        font-size: 14px;
+        color: #616161;
+        line-height: 16px;
+    }
+    .title-big{
+        font-weight: 600;
+        font-size: 28px;
+        color: #393939;
+        line-height: 42px;
+    }
+    .title-small{
+        font-weight: 600;
+        font-size: 24px;
+        color: #393939;
+        line-height: 36px;
+    }
+    .badge {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #616161;
+        background: rgba(7, 89, 54, 0.2);
+        border-radius: 100px;
+        padding: 8px 16px;
+        
+    }
+    .card-custom-img {
+        width: 100%;
+        height: 315px !important;
+        object-fit: cover;
+        object-position: center;
+    }
+    .card-title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #075936;
+        line-height: 21px;
+    }
+    .card-sub {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #616161;
+        line-height: 14px;
+    }
+    .footer-title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #075936;
+        line-height: 27px;
+    }
+    .footer-sub {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #616161;
+        line-height: 20px;
+    }
+    .card-title-custom {
+        font-weight: 500;
+        font-size: 20px;
+        color: #ffffff;
+        line-height: 30px;
+    }
+    .button-custom {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #616161;
+        background: rgba(7, 89, 54, 0.2);
+        border-radius: 100px;
+        padding: 8px 16px;
+        transition: all 0.5s ease;
+    }
+    .button-custom:hover {
+        color: #075936;
+        background: rgba(7, 89, 53, 0.114);
+        
+    }
+    /* END ASSETS */
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
