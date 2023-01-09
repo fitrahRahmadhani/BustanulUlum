@@ -66,7 +66,7 @@
   <!-- =====START BODY===== -->
 
   <!-- Start Section - 1st -->
-  <section id="profil">
+  <section id="1st">
     <div class="container pt-5 pb-5 mt-4">
       <div class="row justify-content-between gy-5 pt-5 pb-3">
         <div class="col-lg-5 text-center text-lg-start">
@@ -83,12 +83,58 @@
           <p class="body">
             Luctus facilisis felis vitae leo aliquam. Purus felis odio convallis felis. In non, adipiscing purus tempus. Dui sit egestas at dolor orci ut nec ultricies. Bustanul ulum memiliki sertifikasi IEEE-1 : annex ei ikn ein
           </p>
-          <a href="src/profile.html" class="button-custom">Lihat Sertifikasi ></a>
+          <a href="..." class="button-custom">Lihat Sertifikasi ></a>
         </div>
       </div>
     </div>
   </section>
   <!-- End Section - 1st -->
+
+  <!-- Start Section - 2nd -->
+  <section id="2nd">
+    <div class="container pt-5 pb-5">
+      <div class="row justify-content-between gy-5 pt-5 pb-3">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 class="subHeading">FASILITAS</h2>
+          <h1 class="heading">Menunjang Proses Belajar <span class="heading-green">Santri</span></h1>
+          <div class="col-md-10">
+            <p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim metus laoreet cras curabitur sit scelerisque. Vestibulum, at vestibulum mollis orci urna, elit nunc tellus. </p>
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                <h1 class="heading-green">21</h1>
+                <p class="body">Tenaga Didik</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h1 class="heading-green">12</h1>
+                <p class="body">Mata Pelajaran</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <h1 class="heading-green">7</h1>
+                <p class="body">Ruang Kelas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center text-lg-start">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../assets/img/profilecarosel1.jpg" class="swiper-carousel">
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/img/profilecarosel2.jpg" class="swiper-carousel">
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/img/profilecarosel3.jpg" class="swiper-carousel">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Section - Profil -->
 
   <!-- =====END BODY===== -->
 
@@ -142,6 +188,19 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <!-- END SCRIPT BOOTSTRAP -->
+
+  <!-- START JS SWIPER -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+    });
+  </script>
+  <!-- END JS SWIPER -->
 
 </body>
 
