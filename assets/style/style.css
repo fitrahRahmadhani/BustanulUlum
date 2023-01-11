@@ -42,6 +42,7 @@ body {
     font-size: 18px;
     color: #616161;
     line-height: 32px;
+    text-align: justify;
 }
 .label {
     font-weight: 400;
